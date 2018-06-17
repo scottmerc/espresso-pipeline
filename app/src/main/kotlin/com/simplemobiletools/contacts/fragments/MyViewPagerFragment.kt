@@ -36,7 +36,7 @@ abstract class MyViewPagerFragment(context: Context, attributeSet: AttributeSet)
         config = activity.config
         if (this.activity == null) {
             this.activity = activity
-            fragment_fab.setOnClickListener {
+            fragment_fab_button.setOnClickListener {
                 fabClicked()
             }
 

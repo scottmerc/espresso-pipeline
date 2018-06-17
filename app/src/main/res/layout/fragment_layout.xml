@@ -57,7 +57,8 @@
     </RelativeLayout>
 
     <com.simplemobiletools.commons.views.MyFloatingActionButton
-        android:id="@+id/fragment_fab"
+        android:id="@+id/fragment_fab_button"
+        android:contentDescription="add_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
